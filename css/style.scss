@@ -1,0 +1,91 @@
+@import url(/fonts/fonts.css);
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+
+    border-bottom: 1px solid #EFF5FB;
+    // .header__content
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 14px;
+    }
+
+
+    // .header__link
+
+    &__link {}
+
+    // .header__link-logo
+
+    &__link-logo {}
+
+    // .header__nav
+
+    &__nav {
+        flex-grow: 1;
+        padding-left: 50px;
+    }
+
+    // .header__nav-list
+
+    &__nav-list {
+        display: flex;
+        gap: 0 30px;
+    }
+
+    // .header__nav-item
+
+    &__nav-item {}
+
+    // .header__nav-link
+
+    &__nav-link {
+        text-decoration: none;
+        color: #333;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 114%;
+        letter-spacing: 0.25px;
+    }
+
+    // .header__nav-dropdown-list
+
+    &__nav-dropdown-list {
+        border: none;
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+        color: #333;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 114%;
+        letter-spacing: 0.25px;
+        cursor: pointer;
+    }
+
+    // .header__button
+
+    &__button {
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 14px 20px;
+        color: #03B2A5;
+        border-radius: 4px;
+        background: #E3F5F5;
+        border: none;
+    }
+}
