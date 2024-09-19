@@ -145,7 +145,7 @@ body {
 
 
     .conteiner {
-        background: url(/images/big-spot.svg) right center no-repeat;
+        background: url(./images/big-spot.svg) right center no-repeat;
     }
 
     // .main__conteiner-top
@@ -236,7 +236,7 @@ body {
 
     &__quote {
         background-color: #F3F7FE;
-        background-image: url(/images/bg-quote.svg);
+        background-image: url(./images/bg-quote.svg);
         background-repeat: no-repeat;
         background-position: 24px 24px;
         border-radius: 16px;
@@ -293,7 +293,7 @@ body {
 
     &__quote {
         padding: 24px 0;
-        background: url(/images/quote-bg.svg) center no-repeat;
+        background: url(./images/quote-bg.svg) center no-repeat;
         display: flex;
         align-items: center;
     }
@@ -338,7 +338,7 @@ body {
     &__cards {
         display: flex;
         gap: 24px;
-        background: url(/images/icon-bg.svg) bottom center no-repeat;
+        background: url(./images/icon-bg.svg) bottom center no-repeat;
         padding: 24px 0 56px;
         margin-bottom: 24px;
     }
@@ -418,7 +418,7 @@ body {
     &__item::before {
         width: 24px;
         height: 24px;
-        content: url(/images/marker.svg);
+        content: url(./images/marker.svg);
         position: absolute;
         left: 0;
     }
@@ -564,14 +564,14 @@ body {
         }
 
         .offers__card-link:first-child::before {
-            content: url(/images/Smiling3.png);
+            content: url(./images/Smiling3.png);
             width: 16px;
             height: 24px;
             padding-right: 4px;
         }
 
         .offers__card-link:last-child::before {
-            content: url(/images/Smiling4.png);
+            content: url(./images/Smiling4.png);
             width: 16px;
             height: 24px;
             padding-right: 4px;
@@ -586,7 +586,7 @@ body {
         flex-direction: column;
         align-items: flex-start;
         gap: 16px;
-        background: url(/images/offers-card-bg.png);
+        background: url(./images/offers-card-bg.png);
 
         .offers__card-title {
             color: #2963A3;
@@ -688,7 +688,7 @@ body {
             width: 4px;
             height: 4px;
             padding: 0 10px 0 7px;
-            background: url(/images/dot.svg) no-repeat center;
+            background: url(./images/dot.svg) no-repeat center;
         }
     }
 }
@@ -755,7 +755,7 @@ body {
 
     &__sorting-btn:nth-child(1) &__sorting-text::before {
         content: "";
-        background: url(/images/Smiling.png) center no-repeat;
+        background: url(./images/Smiling.png) center no-repeat;
         width: 18px;
         height: 18px;
         padding-right: 4px;
@@ -763,7 +763,7 @@ body {
 
     &__sorting-btn:nth-child(3) &__sorting-text::before {
         content: "";
-        background: url(/images/Smiling2.png) center no-repeat;
+        background: url(./images/Smiling2.png) center no-repeat;
         width: 18px;
         height: 18px;
         padding-right: 4px;
@@ -828,7 +828,7 @@ body {
 
     &__card-teg::before {
         content: "";
-        background: url(/images/Smiling2.png) center no-repeat;
+        background: url(./images/Smiling2.png) center no-repeat;
         width: 18px;
         height: 18px;
         padding-right: 4px;
@@ -940,7 +940,7 @@ body {
         width: 16px;
         height: 16px;
         margin: 0 5px;
-        background: url(/images/sign.svg);
+        background: url(./images/sign.svg);
     }
 
     // .pointer__link
@@ -1044,7 +1044,7 @@ body {
         top: 0;
         width: 64px;
         height: 50px;
-        background: url(/images/icon.svg) #16C8BB center no-repeat;
+        background: url(./images/icon.svg) #16C8BB center no-repeat;
         border: none;
         cursor: pointer;
         border-radius: 4px;
@@ -1103,7 +1103,7 @@ body {
 .form {
     display: flex;
     padding-top: 70px;
-    background: url(/images/small-spot.svg) right no-repeat;
+    background: url(./images/small-spot.svg) right no-repeat;
     // .form__conteiner
 
     &__conteiner {}
@@ -1229,7 +1229,7 @@ body {
 
     .offers__card:nth-child(4) {
         height: 242px;
-        background: url(/images/offers-card-bg.png) right bottom no-repeat;
+        background: url(./images/offers-card-bg.png) right bottom no-repeat;
     }
 
     .header__nav {
