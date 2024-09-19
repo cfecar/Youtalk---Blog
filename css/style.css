@@ -109,7 +109,7 @@ body {
 }
 
 .main .conteiner {
-  background: url(/images/big-spot.svg) right center no-repeat;
+  background: url(./images/big-spot.svg) right center no-repeat;
 }
 .main__conteiner-top {
   display: flex;
@@ -167,7 +167,7 @@ body {
 }
 .hero__quote {
   background-color: #F3F7FE;
-  background-image: url(/images/bg-quote.svg);
+  background-image: url(./images/bg-quote.svg);
   background-repeat: no-repeat;
   background-position: 24px 24px;
   border-radius: 16px;
@@ -208,7 +208,7 @@ body {
 }
 .section__quote {
   padding: 24px 0;
-  background: url(/images/quote-bg.svg) center no-repeat;
+  background: url(./images/quote-bg.svg) center no-repeat;
   display: flex;
   align-items: center;
 }
@@ -241,7 +241,7 @@ body {
 .section__cards {
   display: flex;
   gap: 24px;
-  background: url(/images/icon-bg.svg) bottom center no-repeat;
+  background: url(./images/icon-bg.svg) bottom center no-repeat;
   padding: 24px 0 56px;
   margin-bottom: 24px;
 }
@@ -298,7 +298,7 @@ body {
 .list__item::before {
   width: 24px;
   height: 24px;
-  content: url(/images/marker.svg);
+  content: url(./images/marker.svg);
   position: absolute;
   left: 0;
 }
@@ -414,13 +414,13 @@ body {
   background: rgba(243, 244, 248, 0.7);
 }
 .offers__card:nth-child(2) .offers__card-link:first-child::before {
-  content: url(/images/Smiling3.png);
+  content: url(./images/Smiling3.png);
   width: 16px;
   height: 24px;
   padding-right: 4px;
 }
 .offers__card:nth-child(2) .offers__card-link:last-child::before {
-  content: url(/images/Smiling4.png);
+  content: url(./images/Smiling4.png);
   width: 16px;
   height: 24px;
   padding-right: 4px;
@@ -433,7 +433,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
-  background: url(/images/offers-card-bg.png);
+  background: url(./images/offers-card-bg.png);
 }
 .offers__card:nth-child(4) .offers__card-title {
   color: #2963A3;
@@ -503,7 +503,7 @@ body {
   width: 4px;
   height: 4px;
   padding: 0 10px 0 7px;
-  background: url(/images/dot.svg) no-repeat center;
+  background: url(./images/dot.svg) no-repeat center;
 }
 
 .blog__content {
@@ -552,14 +552,14 @@ body {
 }
 .blog__sorting-btn:nth-child(1) .blog__sorting-text::before {
   content: "";
-  background: url(/images/Smiling.png) center no-repeat;
+  background: url(./images/Smiling.png) center no-repeat;
   width: 18px;
   height: 18px;
   padding-right: 4px;
 }
 .blog__sorting-btn:nth-child(3) .blog__sorting-text::before {
   content: "";
-  background: url(/images/Smiling2.png) center no-repeat;
+  background: url(./images/Smiling2.png) center no-repeat;
   width: 18px;
   height: 18px;
   padding-right: 4px;
@@ -610,10 +610,13 @@ body {
 }
 .blog__card-teg::before {
   content: "";
-  background: url(/images/Smiling2.png) center no-repeat;
+  background: url(./images/Smiling2.png) center no-repeat;
   width: 18px;
   height: 18px;
   padding-right: 4px;
+}
+.blog__card-link {
+  text-decoration: none;
 }
 .blog__card-title {
   padding-top: 16px;
@@ -686,7 +689,7 @@ body {
   width: 16px;
   height: 16px;
   margin: 0 5px;
-  background: url(/images/sign.svg);
+  background: url(./images/sign.svg);
 }
 .pointer__link {
   color: rgba(51, 51, 51, 0.7);
@@ -763,7 +766,7 @@ body {
   top: 0;
   width: 64px;
   height: 50px;
-  background: url(/images/icon.svg) #16C8BB center no-repeat;
+  background: url(./images/icon.svg) #16C8BB center no-repeat;
   border: none;
   cursor: pointer;
   border-radius: 4px;
@@ -803,7 +806,7 @@ body {
 .form {
   display: flex;
   padding-top: 70px;
-  background: url(/images/small-spot.svg) right no-repeat;
+  background: url(./images/small-spot.svg) right no-repeat;
 }
 .form__button {
   margin-top: 34px;
@@ -895,7 +898,7 @@ body {
   }
   .offers__card:nth-child(4) {
     height: 242px;
-    background: url(/images/offers-card-bg.png) right bottom no-repeat;
+    background: url(./images/offers-card-bg.png) right bottom no-repeat;
   }
   .header__nav {
     display: none;
